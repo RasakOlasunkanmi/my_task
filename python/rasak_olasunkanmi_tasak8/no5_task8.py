@@ -12,10 +12,8 @@
 # Initialize store inventory with items and quantities
 store = {"Book": 10, "Pen": 20, "Bag": 5}
 print("Before purchase:", store)   # Display inventory before purchase
-
 item = input("Enter the item you want to buy: ")   # Get item name from user
 quantity = int(input("Enter the quantity you want to purchase: "))  # Get quantity from user
-
 store[item] -= quantity  # Reduce the quantity of the selected item
 print("After purchase:", store)  # Display inventory after purchase
 

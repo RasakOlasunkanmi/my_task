@@ -18,7 +18,7 @@
 # eligibility = (age < 18) and (score > 70)    # Checking if the student qualify or not
 # print(f"Candidate: {name}\nAge: {age}\nScore: {score}\nEligible: {eligibility}")   #Display the user details above and eligibility status each on a new line
 
-subjects = 
+# subjects = 
 name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 nationality = input("Enter your nationality: ").title()
