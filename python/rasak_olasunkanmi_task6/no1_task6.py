@@ -1,4 +1,4 @@
-# **Task1: Fruit collector**
+# Task1: Fruit collector
 # - Ask the user to enter 5 favourite fruits. Store them in a set and display the set.
 
 fruit1 = input("Enter your favourite fruit: ")

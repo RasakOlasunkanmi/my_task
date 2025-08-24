@@ -15,6 +15,10 @@ print("Hello! where is the user's input?")
 print(f"Oh! it is here {name}")
 
 word = "Abiodun is a boy"
+count = sum(1 for _ in word)
+count = sum(1 for c in word if c != " ")
+print("Number of characters (excluding spaces):", count)
+print("Number of characters:", count)
 print(word.index("o"))
 
 text = "Hello, World"

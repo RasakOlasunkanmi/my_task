@@ -11,7 +11,6 @@
 # Passed: True
 # Teenager: True
 
-
 # Create an empty dictionary to store student information
 student = {}
 
@@ -40,4 +39,3 @@ print(f"Age: {student['age']}")
 print(f"Scores: {student['scores']}")
 print(f"Passed: {student['passed']}")
 print(f"Teenager: {student['teenager']}")
-

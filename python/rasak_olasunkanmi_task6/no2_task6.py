@@ -8,4 +8,3 @@ name4 = input("Enter the name of a person attending the seminar: ")
 name5 = input("Enter the name of a person attending the seminar: ")
 names = {name1, name2, name3, name4, name5}
 print(f"Unique names collected: {', '.join(sorted(names))}")
-

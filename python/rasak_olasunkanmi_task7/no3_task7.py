@@ -1,4 +1,4 @@
-# **Task3: Days and Activities Pairing**
+# Task3: Days and Activities Pairing
 # - Store days of the week in a tuple and ask the user to input an activity for three specific days.
 #   - Use dictionary comprehension to pair days and activities.
 #   - Print the dictionary.
@@ -18,4 +18,3 @@ print(day_activity)
 
 for day, activity in day_activity.items():
     print(f"On {day}, your activity is: {activity}")
-    print("\n".join([f"On {day}, your activity is: {activity}" for day, activity in day_activity.items()]))

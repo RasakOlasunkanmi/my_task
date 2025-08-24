@@ -1,5 +1,5 @@
-# **Task1: Student Bio Data Storage**
-# - Create a program that collects student bio-data from user input (name, age, gender, courses) and stores it in a dictionary.
+# Task1: Student Bio Data Storage
+# Create a program that collects student bio-data from user input (name, age, gender, courses) and stores it in a dictionary.
 #   - Courses should be stored as a list.
 #   - Display the bio-data neatly using escape sequences.
 # - Requirements:
@@ -7,6 +7,7 @@
 #   - Use dictionary operations `(dict[key] = value)` to store data.
 #   - Use `print()` formatting with `\n` and `\t` for better output.
 
+# Method 1
 student_bio_data = {}
 # Collecting student bio-data from user input
 student_bio_data["name"] = input("Enter your name: ")

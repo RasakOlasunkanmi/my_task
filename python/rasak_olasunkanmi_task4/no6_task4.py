@@ -1,4 +1,3 @@
-
 # Task 6: Word Analyzer
 # Step 1 - Ask the user to input a word.
 # Step 2 - Print the length of the word.
@@ -13,19 +12,3 @@ print(f"The word is all lowercase: {word.islower()}")
 print(f"The word is all titlecase: {word.istitle()}")
 reversed_word = word[::-1]
 print(f"Reversed word: {reversed_word}")
-
-# Method 2
-word = input("Enter a word: ")
-print(f"Length of the word: {len(word)}")
-if word.isupper():    
-    print("The word is all uppercase.")
-elif word.islower():
-    print("The word is all lowercase.")   
-elif word.istitle():
-    print("The word is in title case.")
-else:
-    print("The word is in mixed case.")
-reversed_word = word[::-1]
-print(f"Reversed word: {reversed_word}") 
-
-

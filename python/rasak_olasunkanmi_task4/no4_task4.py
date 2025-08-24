@@ -5,9 +5,11 @@
 # Step 4 - Display them one name per line.
 # -Tips: use `range()`,`sort()`, `for`, `in`, `split()`, `len()`,`lower()` 
 
-names_input = input("Enter 5 names separated by spaces: ")
-names_list = names_input.split(",")
-names_list = [name.lower() for name in names_list]
-names_list.sort()
-for i in range(len(names_list)):
-    print(names_list[i])
+# Mthod 1
+names_input = input("Enter 5 names separated by commas: ")
+
+names_list = names_input.split(",")                  # split into list
+names_list = [name.lower() for name in names_list]   # convert each to lowercase
+names_list.sort()                                    # sort alphabetically
+
+print("\n".join(names_list))

@@ -5,4 +5,4 @@
 
 quote = input("Enter your favorite quote: ")
 quote_title_case = quote.title()
-print(f'"{quote_title_case}"')
+print(f'"{quote_title_case}"')    

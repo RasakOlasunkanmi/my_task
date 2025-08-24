@@ -83,4 +83,3 @@ This section adapts the eligibility check to Federal Government Scholarship requ
 It verifies citizenship, enrollment status, absence of other Oil & Gas scholarships, and
 academic qualifications (minimum five distinctions in WAEC/WASSCE including English and Mathematics).
 """
-

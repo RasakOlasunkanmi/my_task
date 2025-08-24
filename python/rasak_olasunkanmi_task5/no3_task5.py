@@ -5,23 +5,12 @@
 # Step 4 - Print the number of states entered.
 # Step 5 - (Hint: use the tuple membership)
 
-# Method 1
 state1 = input("Enter Nigeria state: ").title()
 state2 = input("Enter Nigeria state: ").title()
 state3 = input("Enter Nigeria state: ").title()
 state4 = input("Enter Nigeria state: ").title()
 state5 = input("Enter Nigeria state: ").title()
 Nigerian_states = (state1, state2, state3, state4, state5)
-print("First state:", Nigerian_states[0])
-print("Last state:", Nigerian_states[-1])
-print("Lagos" in Nigerian_states)
-print("Number of states entered:", len(Nigerian_states))
-
-# Method 2
-Nigerian_states = ()
-for i in range (5):
-    state = input(f"Enter the name of Nigerian state in title case {i + 1}: ")
-    Nigerian_states += (state,)
 print("First state:", Nigerian_states[0])
 print("Last state:", Nigerian_states[-1])
 print("Lagos" in Nigerian_states)

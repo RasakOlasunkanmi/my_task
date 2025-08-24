@@ -10,4 +10,4 @@ new_city = input("Enter a new city to replace the third city: ")
 cities[2] = new_city # Replace the third city
 cities.pop()  # Remove the last city
 cities.insert(0, "San Francisco") # Add a new city to the beginning
-print("Updated list of cities: ")    
+print("Updated list of cities: ") 

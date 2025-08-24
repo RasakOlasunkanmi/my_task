@@ -34,7 +34,3 @@ super_market_prices.update({item_to_update: new_price})
 print("\nUpdated price list:")
 for item, price in super_market_prices.items():
     print(f"{item}: {price}")
-
-
-
-
