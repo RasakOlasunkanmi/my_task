@@ -113,7 +113,7 @@ Why Use Modular Structure?
 - Collaboration-friendly – Multiple developers can work on different parts.
 
 
-**Folder & File Structure**
+Folder & File Structure
 
 - Let’s say we want to build a Student Records Project.
 - We will first structure our folder and files like this.
@@ -172,3 +172,21 @@ library_project/
 ├── main.py                 # Entry point of the program
 └── requirements.txt        # (optional) external dependencies
 """ 
+
+"""Let's make the scope of the implementation broader and interactive.
+
+- Lets have our project structure
+
+library_project/
+│
+├── my_data/
+│   └── data.py
+│
+├── utils/
+│   └── helpers.py
+│
+├── services/
+│   └── library.py
+│
+└── main.py
+"""
