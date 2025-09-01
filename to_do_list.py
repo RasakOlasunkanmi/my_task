@@ -1,22 +1,70 @@
-# Personal Task Manager
+# To-Do List Application
+
+"""
+A to-do list application is a practical project that
+ helps users manage tasks efficiently. This application allows
+ users to add, remove, and view tasks while keeping track of
+ completed and pending activities. Learning to build a to-do
+ list enhances understanding of data structures, file
+ handling, and basic user interaction in Python.
+ This project will cover step-by-step implementation of a to
+do list application, user input handling, list operations, and
+ file handling for persistent storage.
+
+ Key Concepts of To-Do List in Python
+ Basic List Operations:
+ -Adding tasks
+ -Removing tasks
+ -Marking tasks as complete
+ -Displaying tasks
+ -User Input Handling:
+ -Using input() function
+ -Handling invalid inputs
+ File Handling:
+ -Storing tasks in a text file
+ -Retrieving saved tasks on program
+ restart
+ Functions in Python:
+ -Defining functions for task management
+ -Calling functions with user inputs
+"""
+
+"""Hands-On Exercise**
+
+Try improving the to-do list application
+with these additional features:
+
+1. Save tasks to a file so that they persist after
+restarting the program.
+2. Mark tasks as completed and display
+completed tasks separately.
+3. Allow editing tasks instead of just adding and
+removing them.
+4. Improve the user interface with better
+formatting and menu options.
+5. Add a priority system to sort tasks by urgency.
+"""
+
 
 # Dictionary to store tasks with task ID as key and tuple of (task_name, priority) as value
 tasks = {}
+
 # Set to keep track of used task IDs to avoid duplicates
 used_ids = set()
+-
 # List to store task categories
 categories = ["Work", "Personal", "Study"]
 
 def display_menu():
     # Using escape sequences for formatting
-    print("=== Personal Task Manager ===")
+    print("--- Personal Task Manager ---")
     print("1. Add a new task")
     print("2. View all tasks")
     print("3. Update a task")
     print("4. Delete a task")
     print("5. View tasks by category")
     print("6. Exit")
-    print("=" * 30)
+    print("-" * 30)
 
 def add_task():
     # Input statements for task details
