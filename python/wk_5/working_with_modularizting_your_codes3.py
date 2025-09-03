@@ -541,6 +541,14 @@ class SimplePhone:
         # Complex radio transmission here
         pass
     
+    def _connect_to_sms_center(self):
+        pass
+
+    def _format_message(self):
+        pass
+
+    def _send_through_network(self):
+        pass
     
 # User only needs to know the simple interface
 my_phone = SimplePhone("Tecno")
