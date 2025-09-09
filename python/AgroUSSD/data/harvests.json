@@ -1,0 +1,18 @@
+
+[
+  {
+    "farmer_name": "Chinedu",
+    "location": "Lagos",
+    "crop": "Maize",
+    "qty": 200,
+    "price": 150
+  },
+  {
+    "farmer_name": "Chinedu",
+    "location": "Lagos",
+    "crop": "Cassava",
+    "qty": 500,
+    "price": 90
+  }
+]
+

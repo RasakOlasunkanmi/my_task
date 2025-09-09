@@ -1,0 +1,19 @@
+
+[
+  {
+    "name": "Aliu",
+    "phone": "08033334444",
+    "pin": "5678",
+    "role": "Buyer",
+    "location": "Lagos"
+  },
+  {
+    "name": "Chinedu",
+    "phone": "08022221111",
+    "pin": "1234",
+    "role": "Farmer",
+    "location": "Lagos",
+    "farm_size": "5 acres",
+    "crops": ["Maize", "Cassava"]
+  }
+]

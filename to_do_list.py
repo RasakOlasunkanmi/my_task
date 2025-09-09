@@ -51,7 +51,7 @@ tasks = {}
 
 # Set to keep track of used task IDs to avoid duplicates
 used_ids = set()
--
+
 # List to store task categories
 categories = ["Work", "Personal", "Study"]
 
