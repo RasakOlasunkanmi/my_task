@@ -49,3 +49,33 @@ Menu Options
 
 
 📊 Sample Output (Compare Prices)
+
+Enter crop name: Maize
+
++-----------+---------+
+| Location  |   Price |
++===========+=========+
+| Lagos     |     150 |
++-----------+---------+
+| Kano      |     120 |
++-----------+---------+
+| Abuja     |     140 |
++-----------+---------+
+
+
+🛠️ Technologies Used
+
+- Python 3.x
+
+- Tabulate library (for displaying tables)
+
+
+📌 Future Improvements
+
+- Add Farmer features (post harvests, set prices)
+
+- Enable Buyer-Farmer transactions
+
+- Integrate with real market data APIs
+
+- Convert into a Flask/Django web app or a mobile USSD simulation
