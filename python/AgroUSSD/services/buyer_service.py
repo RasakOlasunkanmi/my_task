@@ -136,7 +136,7 @@ def run_buyer_demo():
     # Step 2: Show welcome message
     print(buyer_welcome(buyer))
 
-    # Step 3: Menu loop
+    # Step 3: Menu loop-
     while True:
         print("\n=== Buyer Menu ===")
         print("1. Compare Prices")
