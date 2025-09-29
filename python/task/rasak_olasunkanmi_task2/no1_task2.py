@@ -1,11 +1,6 @@
-# Task1
-# -  Write a Python program that prints the following information on separate lines:
-#  - Your full name
-#   - Your uni
-#  - Your local government area
-#  - Your favorite Nigerian food
+# Collecting User Details
+name = input("Enter your name: ")
+age = int(input("How old are you? "))
 
-print("My name: Rasak Akeem Olasunkanmi")
-print("University: Ahmadu Bello University, Zaria (Nigeria)")
-print("Loacl Government Area: Ifelodun LGA, Kwara State")
-print("Favorite Nigerian Food: Jollof Rice with Chicken")
+# print out
+print(f"Welcome {name}, you are {age} years old.")
